@@ -2,7 +2,7 @@
 #include <iostream>
 bool isPalindrome(const std::string &text)
 {
-    for (int i = 0; i < text.length(); ++i)
+    for (int i = 0; i < text.length() / 2; ++i)
     {
 
         if (tolower(text[i]) != tolower(text[text.length() - 1 - i]))
